@@ -21,7 +21,7 @@ def find_valid_calls(planeteer_calls)
   total = 0
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
-  if total < valid_calls.length
+  if total < planeteer_calls.length
     first_call = valid_calls[0]
     puts first_call
   else
