@@ -17,11 +17,15 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_valid_calls(planeteer_calls)
+  first_call = ""
+  total = 0
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
-  if
-    
+  if total < valid_calls.length
+    first_call = valid_calls[0]
+    puts first_call
   else
+    total += 1
 end
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
